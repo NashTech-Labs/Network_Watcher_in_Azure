@@ -34,11 +34,11 @@ az network watcher list --out table
 
 The following table lists the configurable parameters of the Network Watcher module with their default values.
 
-| Parameter                      | Description                     | Default                  | Type     |
-|--------------------------------|---------------------------------|--------------------------|----------|
-| `network_watcher_name_VV`      | Network Watcher Name            | `NetworkWatcher`         | string   |
-| `rg_VV`                        | Name of resource group          | `NetworkWatcher-rg`      | string   |
-| `location_VV`                  | Name of location                | `WestEurope              | string   |
+| Parameter               | Description                   | Default              | Type      |
+|-------------------------|-------------------------------|----------------------|-----------|
+| network_watcher_name_VV | Network Watcher Name          | NetworkWatcher       | string    |
+| rg_VV                   | Name of resource group        | NetworkWatcher-rg    | string    |
+| location_VV             | Name of location              | WestEurope          | string    |
 
 
 ---
